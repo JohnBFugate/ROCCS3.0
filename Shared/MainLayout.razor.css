@@ -1,0 +1,60 @@
+.row-layout {
+    display: flex;
+}
+.master-view-container {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    height: 100%;
+}
+.group {
+    background-color: hsla(var(--igc-primary-500));
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    height: 92px;
+    min-width: 50px;
+    min-height: 50px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.tabs {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 92.65851884663307px;
+    position: absolute;
+    width: 1433px;
+    height: 1129px;
+    min-width: 0;
+    min-height: 0;
+    max-width: 1440px;
+}
+.tab-item {
+    min-width: 100%;
+}
+.image {
+    object-fit: cover;
+    margin: 5px;
+    min-width: 0;
+    min-height: 0;
+}
+.image_1 {
+    object-fit: scale-down;
+    margin: 15px;
+    width: 302px;
+    height: 60px;
+    min-width: 0;
+    min-height: 0;
+    flex-shrink: 0;
+}
+.button {
+    right: 31.747580368619396px;
+    top: 19.634052350259296px;
+    position: absolute;
+    margin: 20px;
+    width: max-content;
+    height: max-content;
+}
+.button::part(base) {
+    background-color: hsla(var(--igc-surface-500));
+}

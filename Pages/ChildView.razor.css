@@ -1,0 +1,181 @@
+.row-layout {
+    display: flex;
+}
+.child-view-container {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    height: 100%;
+}
+.group {
+    background-color: hsla(var(--igc-primary-500));
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    height: 92px;
+    min-width: 50px;
+    min-height: 50px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.group_1 {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 98px;
+    position: absolute;
+    width: 1428px;
+    height: 982px;
+    min-width: 50px;
+    min-height: 50px;
+}
+.card {
+    left: 26.929503081266038px;
+    top: 12.559291746498317px;
+    position: absolute;
+    width: 1378px;
+    height: max-content;
+    min-width: 320px;
+}
+.group_2 {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+}
+.group_3 {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    min-width: 50px;
+    min-height: 50px;
+}
+.column-layout {
+    display: flex;
+    flex-direction: column;
+}
+.group_4 {
+    background-color: hsla(var(--igc-surface-500));
+    border-color: hsla(var(--igc-gray-400));
+    border-width: 1px;
+    border-style: solid;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    left: 31.96874438490848px;
+    top: 544.1354401211577px;
+    position: absolute;
+    width: 405px;
+    height: 296px;
+    min-width: 50px;
+    min-height: 50px;
+}
+.group_5 {
+    background-color: hsla(var(--igc-surface-500));
+    border-color: hsla(var(--igc-gray-400));
+    border-width: 1px;
+    border-style: solid;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    overflow: hidden;
+    left: 456px;
+    top: 544.3645654733658px;
+    position: absolute;
+    width: 954px;
+    height: 296px;
+    min-width: 50px;
+    min-height: 50px;
+}
+.image {
+    object-fit: cover;
+    margin: 5px;
+    width: 82px;
+    min-width: 0;
+    min-height: 0;
+    flex-shrink: 0;
+}
+.image_1 {
+    object-fit: scale-down;
+    margin: 15px;
+    width: 302px;
+    height: 60px;
+    min-width: 0;
+    min-height: 0;
+    flex-shrink: 0;
+}
+.text {
+    height: max-content;
+    min-width: min-content;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.text_1 {
+    width: 453px;
+    height: max-content;
+    min-width: min-content;
+}
+.text_2 {
+    margin: 0 0 0 5px;
+    height: max-content;
+    min-width: min-content;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.button {
+    right: 31.747580368619396px;
+    top: 19.634052350259296px;
+    position: absolute;
+    margin: 20px;
+    width: max-content;
+    height: max-content;
+}
+.button_1 {
+    left: 1107.2142630071019px;
+    top: 19.116494432132832px;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+}
+.button_2 {
+    height: max-content;
+    min-width: min-content;
+}
+.button_3 {
+    left: 1252.694502821285px;
+    top: 20.112917228038544px;
+    position: absolute;
+    height: max-content;
+    min-width: min-content;
+}
+.button_4 {
+    left: 1113.4566138126802px;
+    top: 368.4665727225515px;
+    position: absolute;
+    height: max-content;
+    min-width: min-content;
+}
+.button::part(base) {
+    background-color: hsla(var(--igc-surface-500));
+}
+.button_1::part(base) {
+    color: hsla(var(--igc-surface-500));
+}
+.button_5::part(base) {
+    color: hsla(var(--igc-surface-500));
+}
+.body-content {
+    min-width: 50px;
+    min-height: 50px;
+}
+.actions-content {
+    min-width: 50px;
+    min-height: 40px;
+}
+.navbar {
+    height: max-content;
+    min-width: min-content;
+}

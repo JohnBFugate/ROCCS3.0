@@ -1,0 +1,180 @@
+@page "/"
+
+<div class="row-layout child-view-container">
+    <div class="row-layout group">
+        <img src="assets/u1.png" class="image" />
+        <img src="assets/u0.png" class="image_1" />
+        <IgbButton Variant="ButtonVariant.Fab" class="button" child-view-scope>
+            <span class="material-icons">
+                search
+            </span>
+            <IgbRipple></IgbRipple>
+        </IgbButton>
+        <IgbButton Variant="ButtonVariant.Fab" class="button_1" child-view-scope>
+            <span class="material-icons">
+                arrow_back_ios
+            </span>
+            <span>Return to Dashboard</span>
+            <IgbRipple></IgbRipple>
+        </IgbButton>
+    </div>
+    <div class="group_1">
+        <IgbCard class="card" child-view-scope>
+            <IgbCardHeader>
+                <div slot="thumbnail">
+                    <IgbAvatar Src="assets/c48fd907d8ee2caa8bb581ab434309f7ce6bb852.gif" Size="SizableComponentSize.Large"></IgbAvatar>
+                </div>
+                <h3 slot="title">
+                    John Doe
+                </h3>
+                <h5 slot="subtitle">
+                    Test Candidate
+                </h5>
+            </IgbCardHeader>
+            <IgbCardContent class="body-content" child-view-scope>
+                <div class="row-layout group_2">
+                    <p class="typography__body-1 text">
+                        Phone Number:
+                    </p>
+                    <p class="typography__body-1 text">
+                        Mobile Number:
+                    </p>
+                    <p class="typography__body-1 text">
+                        Work Number:
+                    </p>
+                    <p class="typography__body-1 text">
+                        Email Address:
+                    </p>
+                </div>
+                <div class="row-layout group_3">
+                    <p class="typography__body-1 text">
+                        LinkedIn Link:
+                    </p>
+                    <p class="typography__body-1 text">
+                        Industry:
+                    </p>
+                </div>
+                <div class="row-layout group_3">
+                    <p class="typography__body-1 text">
+                        Address 1:
+                    </p>
+                    <p class="typography__body-1 text">
+                        Address 2:
+                    </p>
+                </div>
+                <div class="row-layout group_3">
+                    <p class="typography__body-1 text_1">
+                        City:
+                    </p>
+                    <p class="typography__body-1 text_2">
+                        State:
+                    </p>
+                    <p class="typography__body-1 text_2">
+                        Zip Code:
+                    </p>
+                </div>
+            </IgbCardContent>
+            <IgbCardActions class="actions-content" child-view-scope>
+                <IgbButton Variant="ButtonVariant.Flat" class="button_2" child-view-scope>
+                    <span class="material-icons">
+                        phone_in_talk
+                    </span>
+                    <span>Phone Call</span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+                <IgbButton Variant="ButtonVariant.Flat" class="button_2" child-view-scope>
+                    <span class="material-icons">
+                        voicemail
+                    </span>
+                    <span>Voice Mail</span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+                <IgbButton Variant="ButtonVariant.Flat" class="icon-button">
+                    <span class="material-icons">
+                        bookmark
+                    </span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+                <IgbButton Variant="ButtonVariant.Flat" class="button_2" child-view-scope>
+                    <span class="material-icons">
+                        sms
+                    </span>
+                    <span>SMS</span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+                <IgbButton Variant="ButtonVariant.Flat" class="icon-button">
+                    <span class="material-icons">
+                        share
+                    </span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+                <IgbButton Variant="ButtonVariant.Flat" class="button_2" child-view-scope>
+                    <span class="material-icons">
+                        mail
+                    </span>
+                    <span>LinkedIN</span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+                <IgbButton Variant="ButtonVariant.Flat" class="button_2" child-view-scope>
+                    <span class="material-icons">
+                        email
+                    </span>
+                    <span>Indeed</span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+            </IgbCardActions>
+        </IgbCard>
+        <IgbButton Variant="ButtonVariant.Outlined" class="button_3" child-view-scope>
+            Update Profile
+            <IgbRipple></IgbRipple>
+        </IgbButton>
+        <IgbButton Variant="ButtonVariant.Flat" class="button_4" child-view-scope>
+            <span class="material-icons">
+                description
+            </span>
+            <span>Upload Resume</span>
+            <IgbRipple></IgbRipple>
+        </IgbButton>
+        <div class="column-layout group_4">
+            <IgbNavbar class="navbar" child-view-scope>
+                <div slot="end">
+                    <IgbButton Variant="ButtonVariant.Flat" class="icon-button button_5" child-view-scope>
+                        <span class="material-icons">
+                            search
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                    <IgbButton Variant="ButtonVariant.Flat" class="icon-button button_5" child-view-scope>
+                        <span class="material-icons">
+                            more_vert
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </div>
+                <div>Actions Feed</div>
+            </IgbNavbar>
+        </div>
+        <div class="column-layout group_5">
+            <IgbNavbar class="navbar" child-view-scope>
+                <div slot="end">
+                    <IgbButton Variant="ButtonVariant.Flat" class="icon-button button_5" child-view-scope>
+                        <span class="material-icons">
+                            search
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                    <IgbButton Variant="ButtonVariant.Flat" class="icon-button button_5" child-view-scope>
+                        <span class="material-icons">
+                            more_vert
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </div>
+                <div>Matching Job Reqs</div>
+            </IgbNavbar>
+        </div>
+    </div>
+</div>
+
+@code {
+}
